@@ -1,51 +1,57 @@
-h1 {
+h1 { /*makes headers bigger, cleaner and centered*/
   text-align: center;
   font-family: sans-serif;
   font-size: 50px;
 }
 
-#whitetext {
-  color: white;
-}
-
-p {
+p { /*makes basic paragraph text bigger (so its easier to read) and sans serif (also so its easier to read) and so that it isn't
+  hugging the edge of the page*/
   font-size: 25px;
   font-family: 'Arial Narrow Bold', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-img {
+img { /*images have a small black border, making it sorta look like a picture frame*/
   opacity: 1.0;
   align-content: right;
   border: 3px solid black;
 }
 
-#floatright  {
-float: right;    
+#floatright  { /*so that some images can be manually sent to the right*/
+ display: flex;
+ float: right;    
  margin: 0 0 0 15px;
+ justify-content: flex-end;
 }
 
-img:hover {
+img:hover { /*when hovered over by your mouse, images will go a bit translucent and push the text away for easer readability*/
   opacity: 0.5;
   border: 0px solid black;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-h3 {
+h3 { /*smaller size of header*/
   font-size: 35px;
   font-family: sans-serif;
 }
 
-#biggerimage {
+#biggerimage { /*does exactly what you'd guess it does...*/
   width: 500px;
   height: auto;
   float: right;    
   margin: 0 0 0 15px;
 } 
 
-#floatleft  {
- float: left;    
+#floatleft  { /*so that I can manually set images to be alligned to the left*/
+ float: left;
  margin: 0 0 0 15px;
  width: 500px;
  height: auto;
+}
+
+.righttext { /*so i can manually allign text to the right*/
+text-align: right;
+font-size: 23.5px;
 }
