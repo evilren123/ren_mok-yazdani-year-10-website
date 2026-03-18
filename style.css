@@ -55,3 +55,9 @@ h3 { /*smaller size of header*/
 text-align: right;
 font-size: 23.5px;
 }
+
+.footnote { /*footnote text*/
+  text-align: center;
+  font-family: serif;
+  font-size: 15px;
+}
