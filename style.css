@@ -19,7 +19,7 @@ img { /*images have a small black border, making it sorta look like a picture fr
   border-radius: 15px;
 }
 
-#floatright  { /*so that some images can be manually sent to the right*/
+.floatright  { /*so that some images can be manually sent to the right*/
  display: flex;
  float: right;    
  margin: 0 0 0 15px;
@@ -39,14 +39,14 @@ h3 { /*smaller size of header*/
   font-family: sans-serif;
 }
 
-#biggerimage { /*does exactly what you'd guess it does...*/
+.biggerimage { /*does exactly what you'd guess it does...*/
   width: 500px;
   height: auto;
   float: right;
   margin: 0 0 0 15px;
 } 
 
-#floatleft  { /*so that I can manually set images to be alligned to the left*/
+.floatleft  { /*so that I can manually set images to be alligned to the left*/
  float: left;
  margin: 0 0 0 15px;
  width: 500px;
